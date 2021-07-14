@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 8);
+}
+html.box{
+    width: 95%;
+    height: auto;
+}
+.box{
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.box .heading{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.box .heading:hover{
+   color: rgb(13, 195, 240);
+    
+}
+.box .faq{
+    font-family: inherit;
+    font-style: inherit;
+    text-align:justify;
+    color: rgb(238, 238, 235);
+    width: 30rem;
+    margin-left: 50px;
+}
+.box .faq summary{
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    padding-bottom: .8rem;
+    padding-top: 1rem;
+}
+.box .faq p{
+    color: white;
+    font-size: 18px;
+    padding: 0.5rem;
+    margin: 2px;
+    background-color: rgb(236, 60, 29);
+    border: 1px solid rgb(61, 60, 60);
+
+}
+/*--side_content>*/
+
+.side_content{
+    float: right;
+}
+.side_content .faq{
+    font-size: 1.5rem;
+    padding-bottom: .8rem;
+}
+.side_content p{
+    color: white;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+.img1{
+    width: 270px;
+    float: right;
+    margin-right: 140px;
+    margin-top: 30px;
+}
+.img2{
+    width: 410px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}

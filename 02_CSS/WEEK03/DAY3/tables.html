@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET Method POST Method</title>
+    <link rel="stylesheet" href="tables.css" type="text/css">
+</head>
+
+<body bgcolor="#E6F2F9">
+  
+        <table>
+            <tr background>
+                <th colspan="2"><u><br>GET Method POST Method <br><br></u></th>
+            </tr>
+            <tr>
+                <td colspan="2">The <strong>GET</strong> and <strong>POST</strong> methos is used to <u> 'transfer data
+                        from the client to HTTP protocol' </u>but main diffrence between POST methos and Get Method is
+                    that...</td>
+            </tr>
+            <tr>
+                <th>GET Method</th>
+                <th>GET Method</th>
+
+            </tr>
+            <tr>
+                <ol>
+                    <td>
+                        <li>carries request parameter appended in URL string</li>
+                    </td>
+                    <td>
+                        <li>carries request parameter in message body, which makes it <br>more secure way to
+                            transferring data from client.</li>
+                    </td>
+                </ol>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>Data is requested from a specific resource</li>
+                    </td>
+                    <td>
+                        <li>Data is submitted to be processed to a specific resource.</li>
+                    </td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>This method must not be used if you have a password or some sensitive information<br> to be
+                            sent to the server.</li>
+                    </td>
+                    <td>
+                        <li>This method does not have any restrictions on data size to be sent.</li>
+                    </td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>It is used for submitting the form where the user can bookmark the result. </li>
+                    </td>
+                    <td>
+                        <li>Submissions by form with POST cannot be bookmarked.</li>
+                    </td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>It cannot be used for sending binary data like images or word documents.</li>
+                    </td>
+                    <td>
+                        <li>It can be used to send any kind of data like any images, video, PDF, links or word
+                            documents. </li>
+                    </td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>Because they are in URL, have a maximum URL length because you can encode
+                            many parameters.<br> for ex:-
+                            https://www.amazon.in/gp/product/B018E0G4MU/ref=pd_alm_fs_mzg_1_1_<br>fs_dsk_sf_ai_img_3_17440823031?fpw=alm&almBrandId=ctnow&pd_rd_r=99864e5a<br>
+                        </li>
+                    </td>
+                    <td>
+                        <li>By default, they don’t have any maximum length. Now the Server can be configured and most
+                            are <br> to have a maximum length but it is usually substantially longer than 2000
+                            characters.
+                        </li>
+                    </td>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <td>
+                        <li>They should not change the server. You should be able to make the same GET <br>request over
+                            and the server should not change.
+                        </li>
+                    </td>
+                    <td>
+                        <li>Data sent by the POST method goes through HTTP header so security depends <br> on the HTTP
+                            protocol. Its quite riscky because your information is secure by using HTTP. This method
+                            <br> is a little safer than GET because the parameters are not stored in browser history or
+                            in web server logs.
+                        </li>
+                    </td>
+                </ul>
+            </tr>
+    </table>
+
+
+
+</body>
+
+</html>

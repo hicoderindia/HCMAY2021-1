@@ -1,0 +1,58 @@
+
+
+    
+
+
+
+
+
+
+
+--operators:
+    -The operators is a symbol whitch use to evulate the expression.
+    -Types of operators:
+    1. Arithmatic operators:
+        +, -, *, /, %,  - Binary operators
+        ++, -- , - Unary operators;
+
+    2. Assignment operators: - 
+         +=, -=, *=, /=, %=
+
+    3. Comparision operators: - 
+        ==, !=, ===, !==, <, >, <=, >=
+
+    4. Conditional (Ternary) operators:-
+        (), ?, ...., :, ....
+
+    5. Logical operators:
+        &&, ||, !
+
+
+--Statements: 
+    -There are two types od Statements:
+        1. Decision Making Statements:
+        -If the condition is True, It will execute some set of statements, otherwise some other set of statements;
+
+        symbol of decision Meking statements: if, if else, nested if else, switch case. 
+
+        2. loop Statements;
+            - untill the conditions is true, will excute some of statements will be excutes;
+            
+            symbol of loop: white, do while and for
+
+
+
+
+
+
+
+
+
+
+
+
+--Whatever we have wrote in function parameters(n1, n2, itm1, item2), these are called Arguments.
+
+
+
+

@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid  darkblue;
+    margin: 80px 40px;
+}
+
+th td{
+border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    color: black;
+    background-color: coral;
+}
+
+tr:nth-child(even){
+ color: black;
+ background-color: cyan ;
+}
