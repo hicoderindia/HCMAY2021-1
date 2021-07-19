@@ -1,11 +1,5 @@
 
 
-    
-
-
-
-
-
 
 
 --operators:
@@ -52,6 +46,51 @@
 
 
 --Whatever we have wrote in function parameters(n1, n2, itm1, item2), these are called Arguments.
+
+
+--Arrays:
+    - The array is set of values/items of diffrent data types. 
+    Which can be hold , accessed, updated the items whitch are under one identifier. 
+    - syntex:  let identifier = [item1, item2, item3,.....itemn]
+    - to access the items of identifier, we use the concept of index.,
+    - index is an unique digit, whitch range from 0-n -1
+    [item1, item2, item3, item4, item5]
+    [  0  ,   2   ,  3   ,   4  ,   5  ]
+
+
+-- Function:
+    - The function is also a one of indetifier concept
+    - Which holds to set of statements under one Block
+    - and the Block can be Accessible where ever/whenever it is required
+    - We have to write defination of function ie., Function defination
+    - But to access the defination, there should be call;
+    - passing parameters to do some process inside the function defination
+    - Function re usable - giving a call to function for multiple  no. of times to repeat the output 
+    - Excuting the function and returning the final output to function call - return statements
+
+
+
+- DOM selectors:
+    - Selecting DOM Elements in iavaScript
+    - Javascript most commonly used to get or modify the content or value of the HTML elements on the page, as well as apply some effects like show, hide, nimations etc.,
+    -  but, before you can perform any action, you need to find or select the target HTML elements
+    - Selecting some of the elements
+        - getAttribute, find or select, etc.,
+        - document.body
+        - selecting elements by ID, Class name, tag 
+        - selecting elements with css selectors
+        - selecting DOM elements: We can also apply style on 
+        
+        HTMl elements to change the visual presentation of HTML dynamically
+                We can also set almost all the styles for the elements like font size, text align, colors, backgrounds, borders, images, etc. 
+                - naming conventions of CSS properties:-
+                font-weight, text-hight, text-decoration, background-color, background-image
+                (fontWeight, textHight, textDecoration, backgroundColor, backgroundImage)(Here(javaScript), we have removed the (-) between the second word starts with uppercase alphabet)
+                -Getting style from information:-
+                
+
+
+
 
 
 
