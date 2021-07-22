@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +8,53 @@
     <title>Que1</title>
 
 </head>
+
 <body>
     <script type="text/javascript">
-    let numArray=[];
-    let oddArray=[];
-    function arrayOfNumbers(numArray){
-        for(let i=0; i<numArray.length; i++){
-            if(numArray[i]%2 != 0){
-                oddArray[i]=numArray[i]
+
+        arr1 = [1, 2, 3, 4, 5, 6, 7];
+        oddNumArray = [];
+
+
+        function filterOddNumbers(mixedNumArray) {
+
+            for (let index = 0; index < mixedNumArray.length; index++) {
+                //      console.log(mixedNumArray[index]);
+
+                if (mixedNumArray[index] % 2 == 0) {
+                    console.log("Number is even " + mixedNumArray[index])
+                }
+                else {
+                    console.log("Number is odd " + mixedNumArray[index])
+                    oddNumArray.push(mixedNumArray[index])
+                }
+
+
             }
-            else{}
+
+            return oddNumArray;
         }
-        return oddArray;
-    }
-    let arr1=[1,2,3,4,5,6,7];
-    document.write(arrayOfNumbers(arr1));
-    
+
+
+
+        //calling function to find od number in an array\
+        //filterOddNumbers(arr1)
+
+        //calling function to find odd number from arr2
+
+        var arr2 = [2, 3, 4, 5, 8, 9, 11, 2];
+
+        var returnedArray = filterOddNumbers(arr2)
+
+
+
+
+        console.log(returnedArray);
+
+
+
+
     </script>
 </body>
+
 </html>

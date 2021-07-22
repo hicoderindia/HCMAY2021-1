@@ -1,0 +1,11 @@
+numAssignment: July 18th 2021
+1. What are other programming languages that can be used for web design apart from JS? Write Pros, Cons, and examples. 
+2. What kind of programming language for web development?
+3. What is the benefit of JS over other programming languages?
+4. Diff between HTML, CSS
+5. What technologies browser can understand?
+6. Why is not possible to create a website without HTML. 
+7. Why let and const was introduced? Any example where let is preferred over var. 
+8. What is scope of variables? Can you write an example. 
+9. What is ES6, and how it helped developers with new features. 
+10. What is hoisting?
