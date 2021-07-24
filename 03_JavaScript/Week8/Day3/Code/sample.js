@@ -16,7 +16,7 @@ let result = sample(x, y);
 
 // console.log(y);
 
-for (let i = 0; i < 1000000000000000000000; i++) {
+for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
