@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Hoisting</title>
+</head>
+
+<body>
+    <div class="container p-5" style="background-color: aliceblue;">
+
+        <h2>JavaScript Hoisting</h2>
+        <p> During the creation phase, the JavaScript engine moves the variable and function declarations to the top of
+            your code. This feature is known as hoisting in JavaScript. hr<br><strong>There is 2 types of
+                Hoisting:</strong></p>
+        <ol>
+            <li>Variable Hoisting</li>
+            <li>Function Hoisting</li>
+        </ol>
+
+        <h3>Variable Hoisting:</h3>
+        <p>Variable hoisting also known as Global hoisting. In this javaScript Engin moves variables on the top of the
+            script.</p>
+
+        <h3>Function Hoisting</h3>
+        <p>Like variable, Tje javaScript engine moves the variable on the top of the function. And Function Hoisting
+            also known as a Local variable.</p>
+
+        <p> Also In Function, if we donot declare the function and invoke/call the function. then it check Function
+            hoisting first and then check in Global Hoisting as well.</p>
+
+    </div>
+    <script>
+        console.log("Hello There!")
+
+        var num = 10;
+        var str = "Hello My name is Dolly Singh"
+        function multiply() {
+            for (var index = 1; index <= 5; index++) {
+                console.log(num * [index]);
+            }
+
+        }
+        multiply()
+
+        //Here you can see that i haven't given the num value but it is taking out of the Function. and thats only called variable value.
+
+        //Now this is for function hoisting, let me show you for Variable Hoisting.
+
+        console.log(str);
+
+        //So i have given "str value on the top and after that i have used function for outer use. and again now i am searching the "str". its searched and given the result which you can see here "Hello My name is Dolly Singh".
+
+    </script>
+
+</body>
+
+</html>
