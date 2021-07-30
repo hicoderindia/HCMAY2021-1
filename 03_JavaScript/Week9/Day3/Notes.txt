@@ -1,0 +1,103 @@
+--Search on google and find the result.
+        -Stackoverflow
+
+
+
+
+--JavaScript Data Types?
+- JavaScript has six primitive data types
+    null
+    undefined
+    boolean
+    number
+    String
+    symbol  - available only from ES6
+    Complex data type 
+    object
+
+--What is null?
+-The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.(null created empty place, null value is 0).
+    ex- var name= null;
+
+--what is undefined?
+- A variable that has not been assigned/declared a value is of type undefined . A method or statement also returns undefined if we invoke the statement before declaring the value. 
+
+----What is boolean?
+    -Boolean is a logical data type that can have only the values true or false. 
+    -In JS mostely we use this in statements or in loop. to know the result in true/false. 
+    
+            console.log(2==2)
+
+----What is Numbers?
+-There are 2 types of number 
+    (1) integer number (let num = 100;)
+    (2)decimal numbers/Floating number (let   f1 = 12.5;)
+        Note : JavaScript converts a floating-point number into an integer number if the number appears to be the whole number.
+
+    -Numbers can be either positive(+) and negative(-).
+
+
+--If a Adding a number in a string, Javascript treate that number is a string.
+
+
+
+--What is string?
+- String is useful for holding data, that can repesents in text formate.
+    -We use strings in 3 way:
+        -Single quote('')
+        -Double Quote(" ") and 
+        - Backtic(` `)
+    What is the diffrence between all these?
+    -So basically, we use single quote and double quote to write any slamm text or one line text.
+
+     but Backtic we use to write mote then one like text. yes, backticks used for writein more then one like. 
+      - most people thingk that single quote ('')and backticks (``). are same but these are not the same. 
+    - backticks symbol you can see top of the "tab" button. whether sigle quote is near to semicolon(;).
+    -String is also called as character index
+
+                var name = 'Hello'
+                var myName = "Hello, I'm Dolly."
+                var myName = `Hello, I'm Dolly. I live in Hyderabad.`
+
+
+--what is symbol?
+-symbol is a part of premitive data type.symbol allows a special values in make someting unique.  
+    - it can be number, string, keyword, objectetc.              
+    ex: symbol("Rana")
+    or, symbol(3) // there is no shortcuts for that.
+
+    -Its not really change the value, its like a lable for debugging or understanding the code. 
+
+    - If you run symbol, everytime we will get the unique value. (we can't really see, but it happend in background.)
+
+
+--What is Complex data type?
+ - A complex data type is usually a composite of other existing data types. 
+
+    -Examples of Complex Types"
+        (1) Array – Array is a homogenous collection of elements of the same data type. These can be int, float, or any kind of string (string, char, varchar, etc.) or another complex type.
+
+        (2) Map – Map data types are key-value pairs. This type associates a key with a value. For example, a city could be associated with a zipcode, or an address with a phone number.
+
+        (3) Struct – Struct is a composite data type that can contain other complex and simple data types. The data types in a struct do not need to be the same (as they do in arrays.) This flexibility allows users to combine multiple data types together under a single name. 
+        
+ 
+ --What is object type? 
+-In JavaScript, an object is a collection of properties, where each property is defined as a key-value pair.
+
+
+--What is NaN?
+- JavaScript has a special numeric value called NaN.
+In JavaScript, NaN stands for Not a Number. It also known as invalid number.
+    -The NaN has two special characteristics
+        -Any operation with NaN returns NaN
+        -The NaN does not equal any value, including itself.
+
+
+
+
+
+
+
+
+
