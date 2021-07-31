@@ -1,0 +1,55 @@
+.skills{
+   background-image: url(../images/skills.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    color:white;
+
+
+}
+.line {
+    background-color: rgb(250, 124, 145);
+    color: rgb(255, 243, 240);
+    margin-top: -20px;
+}
+
+
+
+
+.resume{
+    background-color: cadetblue;
+
+}
+
+
+
+
+.experience{
+    background-image: url(../images/experience1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     padding-top: 50px;
+     padding-bottom: 300px;
+     color: rgb(249, 62, 255)
+
+
+
+
+.education{
+    background-image: url(../images);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     padding-top: 50px;
+     padding-bottom: 300px;
+     color: rgb(249, 62, 255)     
+
+
+.table{
+    border-collapse: collapse
+}
+
+
+

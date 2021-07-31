@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://image.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    color: rgb(82, 255, 255);
+}
+
+.resume{
+    background-color: rgb(133, 5, 5);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhRxll7RRZzalSoTY1-5bt2ZagsRxG6dj1BQ&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-content: center;
+    margin-top: 55px;
+    margin-left: 320px;
+    width: 70%;
+  
+}
+
+.tb-l{
+   margin-right: 25%; 
+   color: rgb(82, 255, 255);
+   margin-bottom: 4%;
+   margin-top: 20px;
+}
+
+.table1{
+    color: rgb(82, 255, 255);
+    background-position: center;
+    margin-left: 20%;
+    
+}
+
+.table2{
+    color: rgb(82, 255, 255);
+    background-position: center;
+    
+}
+
+h1{
+background-color: rgb(100, 245, 233);
+color: rgb(134, 36, 6);
+background-position: center;
+align-content: center;
+padding-left: 1%;
+padding-top: 1%;
+padding-bottom: 0.5%;
+text-align: center;
+}
+
+h2{
+    background-color: rgb(223, 245, 22);
+    width: 22%;
+    color: rgb(250, 36, 36);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+h3{
+    background-color: rgb(235, 241, 169);
+    width: 18%;
+    color: rgb(255, 16, 16);
+}
+
+h4{
+    background-color: rgb(213, 231, 10);
+    width: 14%;
+    color: rgb(235, 8, 8);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.exp{
+    margin-left: 2%;   
+
+    
