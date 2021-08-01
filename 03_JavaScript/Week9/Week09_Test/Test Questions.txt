@@ -1,0 +1,61 @@
+1. What does hoisting mean in JavaScript? *
+    -Hoisting is the default behavior of moving all the declared variable at the top of the scope before code execution. But hoisting doesn't move the initialization value and that is why result comes undefined. if u invoke the code before initialization.
+
+
+2. What is NaN? Explain. *
+
+    -Nan is Stands of Not a Number. If you do anything with NaN the value will come NaN. NaN doesn't compare with any value and give result NaN.
+
+
+3. How you can check whether the variable is a NaN or not? *
+    -The Number. isNaN() method determines whether a value is NaN (Not-A-Number). This method returns true if the value is of the type Number, and equates to NaN. Otherwise it returns false.
+
+
+4. Explain data types in Javascript? *
+    -JavaScript has 7 types of datatypes. 6 data types are primitive data type and these are 1. Number, 2. String, 3. Boolean, 4. Undefined, 5. Null, 6. Symbol and the 7th one is  Object which come in Non-primitive Data type.
+
+
+5. What is the difference between array and object? *
+    -object: Objects represent a special data type that is mutable and can be used to store a collection of data.
+    -array:  array also does the same thing and array correct a data in list. It can be string OR number, etc.
+
+
+6. Why do we use "use strict" in javascript? *
+    -JavaScript has a bad thing, which is memory leak. So then "strict mode" come in picture and makes code  easier to write "secure" JavaScript. It save time and makes good website in less code. 
+
+
+
+7. What is increment and decrement operator in javascript? *
+    -In Increment operator (+1) one will be added in the value. and in decrement (-1) one will be subtract from the value in JavaScript.
+
+
+8.How to make an image responsive using bootstrap class? *
+    -There is many ways to make image responsive. you can give the image size as per the device. you can fix with column. but these thing may give lot of problem in future. so the best way to make image responsive is add "class: img-responsive" and it works in any device and reside the image as per required.  
+
+
+9. Explain call stack in javascript? *
+    -A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep track of its place in a script that calls multiple functions. basically call stack works as LIFO. LIFO- Last-In First-Out. Here we can write many function inside a function and invoke it.
+
+
+10. What is the difference between pre increment and post increment? *
+    -pre increment means Before assigning the value to the variable we write ++ ( ex: ++10 ). Its add +1 before executing the value.In Post Increment - It assign ++Before assigning the value to the variable (ex: 10++). Its add +1 after executing the value.
+
+
+11. What is key logger? *
+    -Keystroke logging, often referred to as keylogging or keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program. 
+
+
+12. What is DDOS Attack? *
+   -DDoS attacks are carried out with networks of Internet-connected machines. ... When a victim's server or network is targeted by the botnet, each bot sends requests to the target's IP address, potentially causing the server or network to become overwhelmed, resulting in a denial-of-service to normal traffic.
+
+
+13. What does server response code 500 means? *
+    -Server response code 500 for Internal Server Error. server error response code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.  Usually, this indicates the server cannot find a better 5xx error code to response.
+
+
+14. What is Footprint? *
+    -Footprint and footprinting are almost same. In footpring IP address, cookies, and email ID come. For example- if you go to the website they asked to to accept cookies, or they ask email id so later they can recommend you related product if it is E-commers website OR they show us add related to it. 
+
+
+15. What is malicious code? *
+    -Malicious code is unwanted files or programs that can cause harm to a computer or compromise data stored on a computer. Various classifications of malicious code include viruses, worms, and Trojan horses. Taking advantage of common system vulnerabilities, malicious code examples include computer viruses, worms, Trojan horses, logic bombs, spyware, adware, and backdoor programs. 

@@ -1,13 +1,14 @@
---What is Operator?
-    - Assign values to variables and add them together. for ex" 
+--What is Operation?
+    - Assign values to variables and add them together. 
+    for ex" 
         let a = 10; // assign the value 10 to a
         let b = 20; // assign the value 20 to b
         let c= a+b; // assign the value 30 to c (10+20)
 
 -- operend: operend means the left value and the write value are operend. 
     var mum=10;
-    So here num and 10 both are operend. 
-    and (=) is operator, whhich is operating the value. 
+    So here "num" and "10" both are operend. (operend can be any number or sting in left or right side)
+    and (=) is operator, whhich is operating the value.(Operator ex:  +, -, *, /, %....)
 
 
 --Here is a type of operators:
@@ -32,13 +33,13 @@ Lets start with first operator witch is " Unary operators":
 
     -The unary operators in JavaScript are:
 
-        1. Unary plus ( + ) : convert an operand into a number
+        1. Unary plus ( + ) : convert an operand into a number.
             ex: 
             +"3" returns 3.
                 +true returns 1.
 
 
-        2. Unary minus ( - ) : convert an operand into a number and negate the value after that.(negate=Adding a - into a number.)
+        2. Unary minus ( - ) : Unary minus(-) convert an operand into a number and negate the value after that.(negate=Adding a - into a number.)
             Ex: 
             If x is 3, then -x returns -3.
 
@@ -61,19 +62,24 @@ Lets start with first operator witch is " Unary operators":
 
 
 --Assignment operator:
--An  assignment operator assigns a value of the right operand to its left operand
+-An  assignment operator assigns a value of the right operand to its left operand.
 
 -The basic assignment operator is equal ( = )
     E.g : let a = 10;
 
+        left operand= a;
+        right operand= 10;
+    So assignment operator mease its assigning the right operator to left operators.
+
+
 
 --Comparison Operators
-    -To compare two values, you use the comparison operators. 
+    -A comparison operator compares its operands and returns a logical value based on whether the comparison is true OR false. 
+    -The operands can be numerical, string, logical, or object values. 
 
-    -A comparison operator compares its operands and returns a logical value based on whether the comparison is true. The operands can be numerical, string, logical, or object values. Strings are compared based on standard lexicographical ordering, using Unicode values. 
+    ex: consolue.log(10==20). so it will give answere in boolean value, which is true/false.
 
-  ex: consolue.log(10==20). so it will give answere in boolean value, which is true/false.
-
+    Fer more operators to compare the operand:
     operator                     Meaning
     
         <                        Less than
@@ -87,9 +93,9 @@ Lets start with first operator witch is " Unary operators":
 
 --Strict equal ( === ) and not strict equal (!==) 
 
--The strict equal and not strict equal operators behave like the equal and not equal operator; except that they don’t convert operand before comparison
+-The strict equal and not strict equal operators behave like the equal and not equal operator; except that they don’t convert operand before comparison.
 
---Logical Operators
+--Logical Operators:
     -The logical operators are important in JavaScript because they allow you to compare variables and do something based on the result of that comparison.
 
     -For example, if the result of the comparison is true, you perform a block of code; if it’s false, you perform another block of code.
