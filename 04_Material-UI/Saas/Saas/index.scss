@@ -1,0 +1,50 @@
+$body-color: rgb(6, 6, 129);
+$text-color: rgb(0, 255, 242);
+$tedx-white: white;
+
+body{
+    background-color: $body-color;
+    color: $tedx-white;
+    margin: 0 30%;
+    font-family: sans-serif;
+}
+
+.form{
+    color: $tedx-white;
+    padding: 5px 18px;
+    border-radius: 10px;
+}
+
+.mainBody{
+    margin: 20px;
+    margin-top: 20%;
+    display: flex;
+    
+    .maiBody--details{
+        width: 50%;
+        margin-top: 3rem;
+        margin-right: 3rem;
+
+        .maiBody--details--Button{
+            @extend.form;
+            color: black;
+            background-color: $text-color;
+        }
+    }
+    .mainBody--Form{
+        background-color: $tedx-white;
+        font-weight: bold;
+        color: $body-color;
+        padding: 3rem 2rem;
+        display: inline;
+        margin-top: 10px;
+        border-radius: 5px;
+
+        .mainBody--Form--Button{
+            @extend.form;
+            background-color: $body-color;
+        }
+    }
+
+}
+
