@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shipping and Billing Address Form </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script type="text/javascript">
+    function copyAddress() {
+      document.getElementById("shippingName").value=document.getElementById("deliveryName").value;
+      document.getElementById("shippingPhone").value=document.getElementById("deliveryPhone").value;
+
+      document.getElementById("shippingMail").value=document.getElementById("deliveryMail").value;
+
+      document.getElementById("shippingAddress").value= document.getElementById("deliveryAddress").value;
+
+      document.getElementById("shippingCity").value=document.getElementById("deliveryCity").value;
+
+      document.getElementById("shippingState").value=document.getElementById("deliveryState").value;
+
+      document.getElementById("shippingPin").value=document.getElementById("deliveryPin").value;
+    }
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-5">
+        
+        <h3>Delivery address</h3>
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="deliveryName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Phone no:</label>
+            <input type="tel" class="form-control" id="deliveryPhone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="email" class="form-control" id="deliveryMail" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Address</label>
+            <input type="text" class="form-control" id="deliveryAddress" placeholder="Address">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">City</label>
+            <input type="text" class="form-control" id="deliveryCity" placeholder="City">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">State</label>
+            <input type="text" class="form-control" id="deliveryState" placeholder="State  ">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Pin Code</label>
+            <input type="text" class="form-control" id="deliveryPin" placeholder="Pincode">
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-5">
+        <h3>Shipping Address</h3>
+
+        <form>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue"
+                onclick="copyAddress()">
+              Copy Same Address
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="shippingName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Phone no:</label>
+            <input type="tel" class="form-control" id="shippingPhone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="email" class="form-control" id="shippingMail" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Address</label>
+            <input type="text" class="form-control" id="shippingAddress" placeholder="Address">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">City</label>
+            <input type="text" class="form-control" id="shippingCity" placeholder="City">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">State</label>
+            <input type="text" class="form-control" id="shippingState" placeholder="State  ">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Pin Code</label>
+            <input type="text" class="form-control" id="shippingPin" placeholder="Pincode">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

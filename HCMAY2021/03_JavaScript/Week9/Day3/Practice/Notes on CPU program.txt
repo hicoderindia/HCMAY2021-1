@@ -1,0 +1,49 @@
+--What is CPT?
+    -CPU known as a Central processing unit. it also calles as a  central processor , main processor, processor. (In other word you can say if computer is a human then CPU is a mind of human.)
+    -It is made of electronic circuts.
+    -It performs the logic, arithmetic,  controlling and input/output operations given in the program.
+    -Modern circuits are implementing on integrated circuits microprocessors .
+  
+--What is memory?
+    - Memory means it is to acquire, store, retain, and later retrive 
+    Information.
+    -It is of 3 types of memory : 
+    (1) sensory memory
+    (2) short-term, and
+    (3) long-term.
+
+    (1) Sensory memory:
+         It mean make up your ability to process and recall what u see…..simply we can say if we look at something and we think what have I seen now.
+  
+    (2) Short-term memory:
+        It is also known as active or primary memory.
+        short- term memory has ability to store a small amount of information and for short period of time.
+
+    (3) Long-term memory : 
+        It can store the data permenantly. We can see whenever we needed.
+
+-- What is operating system and kernel means?
+    -Operating system :
+        -It is the most important software that runs on a software.
+        -It is a interface between a computer and user.
+        -It manages the memory and process of its software and Hardware.
+        -Each device has the operating system.
+        
+        -Types of operating systems :
+            -Batch os
+            -Time sharing os
+            -Multiprocessing os
+            -Real time os
+            -Distributed os
+            -Network os
+            -Mobile os
+             
+    -Now let's talk about Kernel:
+        -It is the central component of an operating system.
+        -That manages operations of computers and hardware.
+        -It manages operations of memory and cpu time.
+        -It has complete control on the system.
+        -It always resident in the memory.
+        -It gives interaction between hardware and software.
+
+

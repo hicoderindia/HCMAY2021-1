@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/ff6d44ecaf.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0">
+
+        <!--Header Starts-->
+
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <h3 class="pr-5"><a href="https://instagram.com/">Instagram</a></h3>
+
+                    <form class="form-inline my-2 mr-sm-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-home icon-2x"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-location-arrow"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"><i class="fas fa-compass"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"><i class="far fa-heart"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"><i class="fas fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--Body Starts-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mt-1 p-0">
+                <div class="card">
+                    <div class="card-body p-1">
+                        <img src="./Images/dp.jpg" alt="Card image" class="img-fluid d-block float-left" width="40px"
+                            height="50px" style="border-radius: 50%; margin-right: 5px;">
+                        <p class="card-text d-flex mt-3" style="line-height: 3px; "><b>intensedolly321</b></p>
+                        <p class="card-text d-flex" style="line-height: 2px;">Banjara hills, Hyderabad</p>
+                    </div>
+                    <img src="./Images/insta2.png" alt="Card image" class="img-fluid d-block p-1">
+                    <div class="card-body">
+                        <span id="" onclick="addLike()"><span id="likecount">365</span> <i
+                                class="card-text far fa-heart mr-1"></i></span>
+                        <i class="card-text far fa-comment mr-1"></i>
+                        <i class="card-text fas fa-location-arrow"></i>
+                        <i class="card-text far fa-bookmark float-right"></i>
+                        <p class="card-text mt-3"><b>Anand_P_</b>Life is 10% what happens to you and 90% how you react
+                            to it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var likeCount = 365;
+
+        function addLike(likeAdd) {
+            likeCount++
+            document.getElementById("likecount").innerHTML = likeCount;
+
+            console.log(likeCount);
+        }
+    </script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

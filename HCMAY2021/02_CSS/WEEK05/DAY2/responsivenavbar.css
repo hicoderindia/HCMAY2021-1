@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-control{
+    background-color: #007bff;
+    border: none;
+    border-bottom: 2px solid White;
+}
+.navbar{
+    font-size: 18px;
+}
+
+@media(max-width:576px) {
+    .form-control{
+        background-color: #b3f34c;
+        text-emphasis-color: blue;
+        border: 2px solid rgb(255, 0, 0);
+    }
+  }
+
+  @media(max-width:665px) {
+    .form-control{
+        background-color: rgb(253, 207, 207);
+        text-emphasis-color: blue;
+        border: 2px solid #e9ab00;
+    }
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="div1" style="width: 40%; " >
+
+        </div>
+    </div>
+
+    <script>
+         document.body.style.background = "#f5f3e3";
+
+        const element = document.getElementById("div1");
+        const para = document.createElement("h3");
+        const node = document.createTextNode("Accenture");
+        para.appendChild(node);
+
+        element.appendChild(para);
+
+        const paraContent = document.createElement("p");
+        const node1 = document.createTextNode("July 2021-2022");
+        paraContent.appendChild(node);
+        const element = document.getElementById("div1");
+        node1.appendChild(paraContent);
+
+        const paraContent1 = document.createElement("p");
+        const role = document.createTextNode("Backend Developer");
+        role.appendChild(role);
+        const element = document.getElementById("div1");
+        element.appendChild(paraContent1);
+
+       
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+--What is Operation?
+    - Assign values to variables and add them together. 
+    for ex" 
+        let a = 10; // assign the value 10 to a
+        let b = 20; // assign the value 20 to b
+        let c= a+b; // assign the value 30 to c (10+20)
+
+-- operend: operend means the left value and the write value are operend. 
+    var mum=10;
+    So here "num" and "10" both are operend. (operend can be any number or sting in left or right side)
+    and (=) is operator, whhich is operating the value.(Operator ex:  +, -, *, /, %....)
+
+
+--Here is a type of operators:
+    (1) Unary operator
+    (2) Assignment operator
+    (3) Comparison operator
+    (4) Logical operator
+    (5) Bitwise operator
+    (6) String operator
+    (7) Conditional (ternary) operator
+    (7) Comma operator
+    (8) Arithmetic operator
+    (9) Relational operator
+
+    These 4 operators  (Unary operators, Assignment operators, Comparison operators and Logical operators) are commanly used in other programing languages. java, python, c++, etc. 
+
+Lets start with first operator witch is " Unary operators": 
+    - The simplest operators in JavaScript are unary operators. 
+
+    -A unary operator works on one operand
+        Ex: numner, num, a, b , etc. These are the unary operand.
+
+    -The unary operators in JavaScript are:
+
+        1. Unary plus ( + ) : convert an operand into a number.
+            ex: 
+            +"3" returns 3.
+                +true returns 1.
+
+
+        2. Unary minus ( - ) : Unary minus(-) convert an operand into a number and negate the value after that.(negate=Adding a - into a number.)
+            Ex: 
+            If x is 3, then -x returns -3.
+
+       3. Prefix / postfix increments ( ++ ) :   add one to its operand
+            ex: 
+            If x is 3, then ++x sets x to 4 and returns 4, whereas x++ returns 3 and, only then, sets x to 4.
+
+
+        4. Prefix / postfix decrements ( -- ) : subtracts one from its operand.
+            ex: 
+            If x is 3, then --x sets x to 2 and returns 2, whereas x-- returns 3 and, only then, sets x to 2.
+
+        5. Remainder (%):
+            Binary operator. Returns the integer remainder of dividing the two operands.
+                ex:
+                     12 % 5 returns 2.
+
+
+
+
+
+--Assignment operator:
+-An  assignment operator assigns a value of the right operand to its left operand.
+
+-The basic assignment operator is equal ( = )
+    E.g : let a = 10;
+
+        left operand= a;
+        right operand= 10;
+    So assignment operator mease its assigning the right operator to left operators.
+
+
+
+--Comparison Operators
+    -A comparison operator compares its operands and returns a logical value based on whether the comparison is true OR false. 
+    -The operands can be numerical, string, logical, or object values. 
+
+    ex: consolue.log(10==20). so it will give answere in boolean value, which is true/false.
+
+    Fer more operators to compare the operand:
+    operator                     Meaning
+    
+        <                        Less than
+        >                      Greater than
+        <=                 less than equal to   
+        >=                Greater than equal to
+        ==                      equal to
+        !=                     Not equal to  
+
+
+
+--Strict equal ( === ) and not strict equal (!==) 
+
+-The strict equal and not strict equal operators behave like the equal and not equal operator; except that they don’t convert operand before comparison.
+
+--Logical Operators:
+    -The logical operators are important in JavaScript because they allow you to compare variables and do something based on the result of that comparison.
+
+    -For example, if the result of the comparison is true, you perform a block of code; if it’s false, you perform another block of code.
+        (1)  && ( Logical AND)
+        (2)  || ( Logical OR)
+        (3)  ! ( Logical NOT)
+            
+(1)  && ( Logical AND) :
+    Logical AND(&&) operator compare the value. if both matcheds then it shows true. otherwise it shows false.  
+
+(2)  || ( Logical OR):
+     Logical OR (||) operator worrks, when it compate the value, and any one value is true then, it shows true.
+
+(3)  ! ( Logical NOT):
+        Logical NOT (!) gives apposite value. If value is coming true then it will show false, if it comes felse then it will show true. 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-5 col-md-6 mt-5 boder">
+                <img src="./laptop.jpeg" alt="">
+            
+                    <button class="btn btn-primary d-md-none" onclick="myFunction()" id="btn">Button on Mobile</button>  
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 ml-3  mt-5">
+                <h3>APPLE MacBook Pro Core i9 9th Gen - (16 GB/1 TB SSD/Mac OS Catalina/4 GB Graphics) MVVK2HN/A  (16 inch, Space Grey, 2 kg)</h3>
+                <p><span style="font-size: 25px;">₹2,22,810 </span><span style= "text-decoration: line-through;">₹2,39,900</span><span style="color: green;"> ₹17090 off</p>
+                <button class="d-none d-md-block" onclick="myFunction()" id="btn">Desktop Buy Now</button>  
+                <button class="d-none d-md-block" onclick="myFunction()" id="btn1">Desktop One lLick Order</button>
+                
+            </div>
+        </div>
+    </div>
+
+<script>
+function myFunction() {
+  document.getElementById("btn").style.backgroundColor = "yellow";
+  document.getElementById("btn").style.padding = " 8px";
+
+  document.getElementById("btn1").style.backgroundColor = "Orange";
+  document.getElementById("btn1").style.padding = " 8px";
+}
+</script>
+
+</body>
+</html>

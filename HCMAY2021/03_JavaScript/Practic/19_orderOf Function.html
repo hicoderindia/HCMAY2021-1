@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order of function</title>
+    <script type="text/javascript">
+    let productDetails = (productId, productName, productStatus) =>{
+        let res= `the product ID : ` + productId +  `product Name : ` + productName + `product Status : ` + productStatus + `<br/>`
+
+        return res;
+    }
+     let orderDetails = (orderId, product_Id, orderStatus) =>{
+        let res= `The User Orderd details are - <br/> the oder ID : ` +orderId + ` of product Id :  - `+ product_Id + ` product status : ` + orderStatus+ `<br/>`
+
+        return res;
+     }
+    
+    
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        let productId= 230;
+        let productName="Apple";
+        let productStatus="true";
+
+
+        let orderId= 7254;
+        let product_Id= 255;
+        let orderStatus= "Active";
+
+        let productres= "";
+        let orderRes= "";
+
+        prdRes = productDetails(productId, productName, productStatus);
+        document.write("the Product Details are :  <br/>_________________________<br/>");
+        document.write(prdRes + "<br/>");
+        document.write("<br/>_________________________<br/>");
+
+        orderRes = orderDetails(orderId, product_Id, orderStatus);
+        document.write(" the Order details are : <br/>_________________________<br/>");
+        document.write(orderRes + "<br/>");
+        document.write("<br/>_________________________<br/>");
+
+
+
+
+    </script>
+</body>
+</html>

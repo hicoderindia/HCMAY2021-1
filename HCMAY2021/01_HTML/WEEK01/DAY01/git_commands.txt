@@ -1,0 +1,11 @@
+git clone URL
+touch file_name.txt
+git commit -m "message"
+git push
+git checkout
+
+
+
+
+When github isn't added
+git add origin -u github_URL

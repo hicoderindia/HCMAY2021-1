@@ -1,0 +1,103 @@
+/* Navbar Starts */
+
+i {
+    margin: 5px;
+    color: #525151;
+}
+
+::placeholder {
+    padding-left: 7px;
+}
+
+.navBar {
+    align-items: center;
+    margin: 0 10px;
+}
+
+.navBar .navbar_items {
+    display: flex;
+    margin: 2px 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar .navbar_item {
+    display: flex;
+    align-items: center;
+}
+
+.navBar .navbar_item .navBar_logo {}
+
+.navBar .navbar_item .navBar_logo_img {
+    margin-left: 40px;
+}
+
+.navBar_search {
+    display: flex;
+    align-items: center;
+}
+
+.navBar_search .navBar_Search_input {
+    padding: 8px 0;
+    width: 42rem;
+    border: gray 1px solid;
+    border-radius: 2px;
+}
+
+.navBar_search .navBar_search_icon {
+    padding: 6px 18px;
+    margin-left: -5px;
+    border: gray 1px solid;
+    border-radius: 2px;
+
+    background-color: #dbd8d8;
+}
+
+.navBar_search .navBar_search_mic {
+    background-color: #dad8d8;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.navBar_icons {
+    display: flex;
+    align-items: center;
+}
+
+.navBar_icons .navBar_icons_user {
+    background-color: #dad8d8;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* //  Navebar ends
+
+//Sidebar starts */
+
+
+.core_sidebar {
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 70px;
+    height: 100%;
+    /* background-color: #245323; */
+}
+
+.sidebar_icons {
+    text-align: center;
+    margin-top: 4px;
+    /* margin-right: 1rem; */
+
+}
+
+.sidebar_icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* //Sidebar Ends */
+

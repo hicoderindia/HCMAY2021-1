@@ -1,0 +1,104 @@
+1. Difference between var, let, const. *
+    -The difference between var, let and const are these:
+
+    Var:- 
+    -Var is a global variable. 
+    -We can redeclare the initialization.  
+    - We can declare the value with no value.
+    - we can declare the value and initialize it later.
+    - we can update the value of identifier.
+    -we can declare var globally. many people call var variable as a global scope.
+
+    Let:-
+    Nowadays most people using let because let block variable and 
+    -let allows you to declare variables that are limited to the scope of a block statement.
+    -let cannot redeclare the value. 
+    - we can update the value of identifier.
+    - we cannot declare the value and initialize it later.
+    
+    const:- 
+    -The const declaration creates a read-only reference to a value.
+    - we cannot redeclare variable.
+    -We cannot redeclare initialization.
+    - const is a one time use variable.
+
+
+2. What is loop? *
+    -Loop is used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false when analysed. A loop will continue running until the defined condition returns false . 
+    There is three types of loop:
+    1.  for loop
+    2. while loop and 
+    3. do loop
+
+    1. For Loop-  if you want to run the same code over and over again, each time with a different value that time we use for loop.
+
+    2. while loop: while loops through a block of code while a specified condition is true.
+
+    3. do while loop:  loops through a block of code once, and then repeats the loop while a specified condition is true
+
+3. Differentiate “==” and “===” operators. *
+    -Well, "==" compare the value and "===" compare the value and datatype both. 
+    What is hoisting? Where are the usage of hoisting? Write the syntax! *
+    Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution. Basically, it gives us an advantage that no matter where functions and variables are declared, they are moved to the top of their scope and defined value "undefined".
+    Note: hoisting moves the declaration value on the top, it does not move inisilization value on the top.
+
+    For ex:
+
+    num= 10;
+    console.log(num);
+
+    var num;
+
+    So here you can see the i have invoked/call the variable before declaration. the then i have declare the variable(ignore the num value as of now). then result will come undefined. because hoisting has move the variable declaration on the top and took value as an undefined. 
+    Then I have given num value(num=10)before invoking the variable and now it took the initialized value and showing the num value.
+
+4. What is function? *
+    -function is like a variable or a set. A set of statements that performs a task or calculates a value. Function take some value and return some output related to input.
+    Can we call let value before declaration? *
+    No, We cannot call the value before declaration. If we call it will throw an error.
+    What is the scope of variable declared with var? *
+    Its a Global variable with Var, if you redeclare the  var variable inside a function. then also it will come out of fhe function and give value globally.
+
+    Ex:
+    var num= "20"
+
+    function totalSum(){
+        num=10;
+        return num+1
+    }
+
+    var sum= totalSum();  //returned the function
+    console.log(sum);  //invoked the function value     answer 11.
+
+    console.log(num);  //globally invoked   //answer 10.
+
+    Here you can see I have declare the variable globally and then again i have redeclared variable inside the function. So because of Hoising redeclared value came out of the function and giving value globally. 
+
+5. Is using "use strict" important? *
+    -yes, it is important while using Var variable. "use Strict" does not allows to initialize value before declaration.
+    What is the scope of a let variable? *
+    The scope of late variable known as local scope or function scope. 
+    let allows you to declare variables that are limited to the scope of a block statement. 
+    What is Material framework? Why do we use it? *
+    Material framework is a part of react.js . Material UI helps to create responsive page in less code. Material Design provides guidance for screen transitions. Many people says that material UI is a CSS framework and few says that its a JS framework. becuse we write js code as well in material-UI.
+6. Material vs Bootstrap, Which one is best for low bloat web application? *
+    -Bootstrap is a good framework to design any responsive web page. I haven't use  Material-UI much. I have started learning. but I have heard a lot about material-UI from my senior friends. and they said that Material-UI is the better than Bootstrap. 
+
+7. What is cloud computing? *
+    -Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence.
+    You can see PaaS in action with the Fast metrics cloud phone service. For example server for free video conference calls, for anyone from anywhere, without the use of software.
+    There is 2 section the front-end and the back-end. They are connected to each other through a network, usually the Internet. The front end is the side of the computer user or client. The back end is ‘the cloud’ section of the system.
+
+8. What is cloudflare? How does it help businesses? *
+    -Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+    For ex: if gov. want some data from US. so it can be risky to send data from local server. because it took time and till then data can be leacked or hacker can hack the data. so at that time situation cloudfare come. So if gov. is downloading something then it will direct not come to gov. it will go to many APIs. for example the data will go to Nigeria then Saudi Aribia then iran and then India. So API will change many time and it will be taught for Hacker  to find data.
+
+9. What is middleware? Can our web application work without middleware? *
+    -Middleware is a type of computer software that provides services to software applications beyond those available from the operating system. Here is few middleware: 
+    1.  JavaScript object notation (JSON)
+    2. representational state transfer (REST)
+    Middleware required for custom integration. Middleware helps developers build applications more efficiently. It acts like the connective tissue between applications, data, and users.
+
+10. What are few things we can do using middleware? *
+    -There is many thing to do with middle were plication server middleware, message-oriented middleware, web middleware and transaction-processing monitors, etc.
+    The answers attempted above are my own and I did not copy/ask help from friend, family or the internet. *

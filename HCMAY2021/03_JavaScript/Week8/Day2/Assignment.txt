@@ -1,0 +1,11 @@
+Assignment: July 20th, 2021
+1. What is the dev tool and the purpose of the dev tool?
+3. What is a web server in detail?
+4. What is the HTTP response status code? List popular status code and their meaning in one table. 
+5. Difference between static and dynamic client-server architecture. 
+6. Create a simple resume HTML Resume with HTML, CSS, JS. 
+a. Add one image at least
+b. Add one script 
+c. Observe everything from loading in dev tools and try to stop the script, see all the dev tool tabs. 
+7. What is a cookie?(Explore)
+8. What is a database? (Explore)

@@ -1,0 +1,33 @@
+1. What is use strict mode in javascript? List it's usage.
+-To avoid creating a global variables accidentally inside a function because of omitting the var keyword, we use the "strict mode" by adding the “use strict” at the beginning of the JavaScript file or a function as well. 
+-"use strict" eliminate some javaScript silence error and make our code run smooth and faster.
+ - becauseits a  weird part of JavaScript we should always use "use strict" to avoid the errors.
+
+
+2. What is variable shadowing?
+    - Variable shadowing occurs when a variable of an inner scope is defined with the same name as a variable in the outer scope. 
+        So here in shadowing, If you create variable name globely and redeclare the value in local variable. then if you invoke/call the value globely then it will take re-declared value. And that is called variable showding.
+
+3. What is global variables?
+    - JavaScript engine assigns variables that you declare outside of functions to the “Global execution context”. These variables are in the global variable. Also known as global Scope. 
+
+4. What is local variables?
+    - Local variable which we declare inside the function called local variable. Its also known as Locl scope.
+
+5. What is Block scoped variables?
+    -Block scope : Generally, whenever you see curly brackets {}, it is a block. Variables that you  declare inside a block are block scoped variables. 
+
+6. What is undefined variables?
+    -An undefined variable that has been declared, but we have not assigned it a value. So at that case it shows “undefined” as its initial value. and that is called undefined variable. || ex var num; ||We have declare the variable but didnot given value yet.
+
+7. What is undeclared variables?
+    -Undeclared variable is that has not been declared yet. 
+
+8. Why JavaScript is loosely typed?
+    -JavaScript variables are loosely typed, means variables can hold values with any type of data. for example:
+        var fullName= "Rama Krishna"
+            fullName= "John Andrew"
+        So if you see the value JavaScript engine will show "John Andrew" instend of showing "Rama Krishna". and this thing happen because od loosely type. So basically loosely type takeing redeclared value.
+
+9. Declare javascript variable using var keyword.
+    - var fullName= "John Andrew"

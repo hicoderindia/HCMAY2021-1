@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+
+    <script type="text/javascript">
+
+        function showFullName(firstName, lastName){
+            let fullName=firstName+" "+lastName + "<br>";
+            document.write(fullName);
+            document.write("____________________<br/>")
+            
+        }
+    //function defination treated as local identification and its accessibility is with in the function
+
+        function showTotalNumbers(n1, n2){
+            document.write("Num1 value = " +n1 +"<br/");
+            
+            document.write(` Num2 value = ` + n2 +`<br/>`);
+            document.write(" total value = " + n1 + n2 +"<br/>");
+
+            console.log(n1+n2)
+
+        }
+    </script>
+
+
+</head>
+<body>
+    <h1>Page loaded</h1>
+    
+<div class="" style="background-color: rgb(174, 177, 177);">
+
+<script>
+let firstName="dollyy";
+let lastName="Singh";
+
+//function with parameters with string
+
+showFullName(firstName,lastName);
+
+//function with parameters with numners
+//these are aslo called globel identifier
+
+let num1=5.2;
+let num2=10.8;
+
+showTotalNumbers(num1, num2);
+
+//Or else 
+
+let numA=6.2;
+let numB=13.8;
+let totalNum=(numA+numB);
+console.log(totalNum)
+
+
+</script>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

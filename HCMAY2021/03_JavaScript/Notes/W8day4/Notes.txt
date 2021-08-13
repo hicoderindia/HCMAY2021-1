@@ -1,0 +1,9 @@
+About String:-
+    
+    - A 2 string can be multiply and give reasult like numbers. ex: '2'x '2' = 4 
+    
+    -Same thing apply with subtraction(-),division(/), or Modilo(%)
+
+    - But it cannot be add(+). ex '2'+ '2' = "22". The reason is because (+) do string concordination and Addition as well. and here is string so it is concordinating the value. So if you want to add 2 numbers then you have to use 2 + 2 = 4.
+
+-

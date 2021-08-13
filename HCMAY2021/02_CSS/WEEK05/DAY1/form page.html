@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/ff6d44ecaf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="hicoder_headerandfooter.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="border m-5">
+            <form action="form" method="POST">
+                <h2 class="form form-light" style="text-align:center; font-weight: bold; background-color: azure;">
+                    Registration form</h2>
+                <hr>
+                <fieldset class="form-group">
+                    <label for="text">User Name</label>
+                    <input class="form-control" type="text" value="" name="username" placeholder="">
+                    <div class="form-text text-muted">Your full name here.</div>
+                </fieldset>
+            </form>
+            <form name="form" method="POST" class="form-inline mb-2">
+                <fieldset class="form-group">
+                    <label for="text" class="mr-2">Email</label>
+                    <input type="text" value="" name="mailid" class="mr-5" placeholder="@gmail.com" />
+                </fieldset>
+                <fieldset class="input-group-prepend my-2">
+                    <span class="input-group-text">+91</span>
+                    <input type="text" value="" name="" class="" placeholder=""> 
+                    <input type="buttton"  class="btn btn-primary input-group-prepend" name="" value="accept">
+                </fieldset>
+            </form>
+
+            <form name="form" method="POST" class="form-inline my-2">
+                <fieldset class="form-group">
+                    <label for="text" class="mr-2">State</label>
+                    <select>
+                        <option>--Select--</option>
+                        <option value="Telengana">Telengana</option>
+                        <option value="Andhra Pradesh">Andhra-Pradesh</option>
+                        <option value="Madhya pradesh">Madhya pradesh</option>
+                        <option value="Maharastra">Maharastra</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div>
+                        <input type="text" value="" name="text" class="mx-2 px-5" placeholder=" Pin code">
+                    </div>
+                    
+                </fieldset>
+                <fieldset class="form-group">
+                <div class="">
+                    <label class="btn btn-primary">
+                        <input type="radio" name="Gender" value="">Male
+                    </label>
+                </div>
+                <div class="btn-group">
+                    <label class="btn btn-primary">
+                        <input type="radio" name="Gender" value="">Female
+                    </label>
+                </div>
+            </fieldset>
+                
+        </div>
+
+        </form>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <!--
+
+
+    <fieldset class="form-group raw">
+        <input type="text" name="" value="" placeholder="Name" class=" form-control">
+        <br>
+        <input type="text" name="" value="" placeholder="Company" class=" form-control">
+        <br>
+        <div class="row">
+            <div class=" col-sm-1"></div>
+            <input type="text" name="" value="" placeholder="Email" class=" col-sm-4"><br>
+            <input type="text" name="" value="" placeholder="Phone" class=" col-sm-6">
+        </div>
+        <br>
+        <select class="Subject form-control">
+            <option value="Subject">Subject: </option>
+            <option value="API Products">API Products</option>
+            <option value="Herbal extracts">Herbal extracts</option>
+            <option value="Phytochemicals">Phytochemicals</option>
+            <option value="Veterinary">Veterinary</option>
+            <option value="Chemicals">Chemicals</option>
+            <option value="API Products">Othere</option>
+        </select>
+        <br>
+        <div class="form-control">
+            <textarea name="text" value="" placeholder="Message" id="" cols="57" rows="4"></textarea>
+        </div>
+        <br>
+        <button type="button" class="btn btn-outline msg_btn"> START AN ORDER?</button>
+    </fieldset>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

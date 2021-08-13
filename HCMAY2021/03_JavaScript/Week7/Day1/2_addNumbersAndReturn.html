@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    
+    function addNumArray(numSet1, numSet2){
+        var sumArray=[];
+        for(let item=0; item<numSet1.length; item++){
+        console.log("running")
+        sum=numSet1[item]+numSet2[item]
+        sumArray.push(sum)
+    }
+    return sumArray;
+    }
+
+    </script>
+</head>
+<body>
+    <div style="background-color: rgb(243, 243, 243);">
+    <h1>Hello</h1>
+
+    <script type="text/javascript">
+    //numSet1,numSet2 and returns one array in sum
+        let numSet1=[1,2,3,4];
+        let numSet2=[2,3,4,5];
+
+    //calling function
+      let sumArray=addNumArray(numSet1, numSet2);
+      document.write(sumArray)
+      console.log(sumArray)
+      
+    </script>
+
+
+</div>
+</body>
+</html>

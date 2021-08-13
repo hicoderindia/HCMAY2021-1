@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+.searchbar {
+    padding: 5px 0;
+    padding-left: 2rem;
+    padding-right: 10rem;
+  }
+
+ #searchicon {
+    margin-left: 50px;
+  }
+
+.btn {
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 0;
+  }
+
+.btn1 {
+    padding: 2px 20px;
+    border: #fba85f 5px solid;
+  }
+
+.header {
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+a {
+    font-size: 18px;
+    color: rgb(107, 105, 105);
+  }
+
+code {
+    color: rgb(41, 40, 40);
+    background-color: rgb(204, 204, 204);
+  }
+
+.row_body {
+    margin-left: 8%;
+  }
+
+.challenge {
+    width: 100%;
+    margin: 2px;
+    border: 3px solid #D5D8DC;
+    background-color: gray;
+    color: rgb(22, 22, 22);
+  }
+
+.search_box {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px 0;
+  }
+
+  .title-wrap {
+    padding-top: 15px;
+    text-align: center;
+    height: 10px;
+    display: block;
+  }
+
+  .breadcrumb {
+    border: gray 1px solid;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+  }
+
+  .breadcrumb-left {
+    color: rgb(47, 47, 47);
+    align-items: center;
+    background-color: gray;
+    display: inline-block;
+    flex-grow: 1;
+    flex-shrink: 2;
+    justify-content: center;
+    max-height: 25px;
+    min-width: 25px;
+    overflow: hidden;
+    padding: 0 3px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .breadcrumb-center {
+    -webkit-box-flex: 0;
+    border-bottom: 12.5px solid transparent;
+    border-left: 11.5px solid gray;
+    border-top: 12.5px solid transparent;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 0;
+    width: 0;
+    text-align: center;
+    display: block;
+  }
+
+  .breadcrumb-right {
+    color: rgb(47, 47, 47);
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    -webkit-box-flex: 2;
+    align-items: center;
+    display: inline-block;
+    flex-grow: 2;
+    flex-shrink: 1;
+    justify-content: center;
+    max-height: 25px;
+    min-width: 50px;
+    overflow: hidden;
+    padding: 0 3px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }

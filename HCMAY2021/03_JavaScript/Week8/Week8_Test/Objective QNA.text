@@ -1,0 +1,73 @@
+-- What are 3 scopes in a variable?
+-The variable names are: 1. Global Scope 2. Local Scope 3. Block Scope
+
+-- Can we declare a let variable with the same name twice? 
+    -No, We cannot declare  same name twice.
+
+-- What do you mean by variable declaration and variable initialization? 
+    -variable declaration means when we give variable name, or you can say identifier.
+
+    Var num1;
+    ----------------------------
+    variable initialization means  initializing the value. Ex:
+    var num1= 25 
+    ------------------------
+    Its not just for number, you can give  string as well.
+
+--Why var is accessible from the function's scope? 
+    -because Var is a Global variable. you can access from any anywhere, even though from local function. 
+
+--What is the timeOut function in JS? Where do we use it along with its syntax? *
+    -The timeOut function we use for block function. block function block the other value and take time to load. and because of site runs slow, That is why we use timeOut function to set the time to execute the block function. 
+
+--What is the timeOut function in JS? Where do we use it along with its syntax?
+    -The timeOut function we use for block function. block function block the other value and take time to load. and because of site runs slow, That is why we use timeOut function to set the time to execute the block function. 
+
+--List popular JavaScript browsers and their respective engines along with their advantages and disadvantages. 
+    -There is many browsers:
+        1. V8: V8 from Google is the most used JavaScript engine. many people use this engine to to build the application or other frameworks. other uses include the "Node.js" and "deno Runtime system". Most developer like v8 because there they can use dev-tool to check any website closely and do debugging and many other things.
+
+        2. the second one is "SpiderMockney", build by Mozilla  use in Firefox and its forks. people use this engine for extension support.
+
+        3. The 3rd  engine is "JavaScriptCore", developed by Apple for Safari browsers. other browsers use this.
+
+        4. The last one is "Chakra" is the engine of the Internet Explorer browser. It was also forked by Microsoft for the original Edge browser, but Edge was later rebuilt as a Chromium-based browser and thus now uses V8.
+
+--What do you mean by single-thread programming language? List languages that are single-threaded.
+    - JavaScript is a single-threaded language . A single-thread language is one runs only one thing at a time. it complete and then starts other. JavaScript and python are single thread programing languages. 
+
+-- Javascript is a single-threaded programming language but it is still the most preferred when comes to chatting and gaming application, Why?
+    - Yes, Javascript is a single-threaded programming language. but we use Asynchronous function, which gives value like multi-threaded. Most people prefer Javascript because the got the output in very less code. and website is not not take much load.
+
+--What are Offset columns in bootstrap and why do we use them?
+    -Offset column is basically used to hide the columns and give a beautiful design of the website. 
+
+--How does call stack work? 
+    -The call stack works based on the LIFO principle i.e, last-in-first-out. the JavaScript engine creates a Function Execution Context for the function, pushes it on top of the Call Stack, and starts executing the function. 
+
+--What do you understand by synchronous and asynchronous? 
+    -A synchronous: When executing a script, the JavaScript engine executes code from top to bottom, or you can say line by line. It is synchronous. Asynchronous is completely opposite from synchronous.   Email is asynchronous because we respond whenever it's convenient. In some cases this means never, which can be mighty convenient.
+
+--What is the blocking function? In what scenarios a function should be called a blocking function?
+    A Blocking function block takes the time to run and block the other function till it execute. In other words you can't run other function till it execute. Mosely it happen when we use loop. 
+
+--Write the meaning of the following response codes. (200, 204, 206, 301, 304, 401, 400, 403, 404, 408, 413, 414, 415, 429, 500, 503, 511)
+   -200- OK
+    204 - No Content
+    206 - Partial Content
+    301 -  Moved Permanently redirect
+    304 -  Not Modified client redirection response
+    400 - Bad Request
+    401 -  Unauthorized
+    402 - Payment Required
+    403 -  forbidden
+    404 -  Not Found
+    408 - Request Timeout
+    413 -  Payload Too Large 
+    414 - URI Too Long response
+    415 -Unsupported Media Type client error
+    429 - Too Many Requests response
+    500 -generic error response
+    501 - Not Implemented server error  the URL given by the Location headers
+    503 - Service Unavailable error
+    511 -  Network Authentication Required response 

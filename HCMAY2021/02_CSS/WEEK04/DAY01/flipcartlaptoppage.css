@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    background-color: lavender;
+}
+.header{
+    background-color: #2874f0;
+    border: 1px solid #4b8ffc;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+
+}
+h1 h2 h3 h4 h5 h6{
+    background-color: rgb(92, 129, 138);
+    font-weight: bold;
+    color: tomato;
+    display: inline-block;
+    position: absolute;
+}
+p{
+    color: rgb(37, 37, 37);
+    margin-bottom: 2rem;
+}
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+.logo1{}
+}
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: white;
+}
+
+/*--nav starts--*/
+
+.container .data-reactroot .header .logo input{
+    color: rgb(116, 115, 115);
+    padding: 8px 1rem;
+    padding-right: 25rem; 
+
+    margin-top: -10px;
+}
+.logo i{
+    position: relative;
+    left: -35px;
+}

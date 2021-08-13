@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que1</title>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        arr1 = [1, 2, 3, 4, 5, 6, 7];
+        oddNumArray = [];
+
+
+        function filterOddNumbers(mixedNumArray) {
+
+            for (let index = 0; index < mixedNumArray.length; index++) {
+                //      console.log(mixedNumArray[index]);
+
+                if (mixedNumArray[index] % 2 == 0) {
+                    console.log("Number is even " + mixedNumArray[index])
+                }
+                else {
+                    console.log("Number is odd " + mixedNumArray[index])
+                    oddNumArray.push(mixedNumArray[index])
+                }
+
+
+            }
+
+            return oddNumArray;
+        }
+
+
+
+        //calling function to find od number in an array\
+        //filterOddNumbers(arr1)
+
+        //calling function to find odd number from arr2
+
+        var arr2 = [2, 3, 4, 5, 8, 9, 11, 2];
+
+        var returnedArray = filterOddNumbers(arr2)
+
+
+
+
+        console.log(returnedArray);
+
+
+
+
+    </script>
+</body>
+
+</html>

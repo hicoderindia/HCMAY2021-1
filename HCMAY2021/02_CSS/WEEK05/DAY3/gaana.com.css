@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_btn{
+    border-radius: 50px;
+}
+.nav_btn1{
+    font-size: 12px;
+    border-radius: 20px;
+}
+.btn_new{
+margin-bottom: 20px;
+}
+#moon{
+    color: rgb(136, 136, 136);
+}
+
+.form-control{
+    width: 27rem;
+    margin-left: -15rem;
+}
+.input-group #nav_btn2{
+    border-radius: 50px;
+}
+.input-group #search_btn{
+    margin-left: -15px;
+}
