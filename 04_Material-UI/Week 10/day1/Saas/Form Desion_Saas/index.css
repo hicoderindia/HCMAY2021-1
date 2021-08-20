@@ -1,0 +1,87 @@
+body {
+  background-color: #060681;
+  color: white;
+  margin: 5% 0 15% 15%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form, .mainBody .mainBody--details .maiBody--details--Button, .mainBody .mainBody--Form .mainBody--Form--Button {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+
+.navbar--logo {
+  color: red;
+}
+
+.navbar, a {
+  color: black;
+  margin: p x 15px;
+}
+
+.navbar a:hover {
+  padding: 10px 15px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+.mainBody {
+  margin: 20px;
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainBody .mainBody--details {
+  width: 50%;
+  margin-top: 7rem;
+}
+
+.mainBody .mainBody--details .mainBody--details--feature {
+  color: #00fff2;
+}
+
+.mainBody .mainBody--details .maiBody--details--Button {
+  margin-top: 15px;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #00fff2;
+}
+
+.mainBody .mainBody--Form {
+  background-color: white;
+  font-weight: bold;
+  color: #060681;
+  padding: 3rem 5rem;
+  display: inline;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.mainBody .mainBody--Form .mainBody--Form--label {
+  margin-top: 5px;
+}
+
+.mainBody .mainBody--Form .mainBody--Form--input {
+  padding-top: 2rem;
+  width: 30rem;
+  border: white;
+  border-bottom: 2px solid #060681;
+}
+
+.mainBody .mainBody--Form .mainBody--Form--Button {
+  width: 100%;
+  background-color: #060681;
+}
+/*# sourceMappingURL=index.css.map */
